@@ -1,15 +1,15 @@
-// var myLogModule = require('./PRELIMS/utility/log.js');
+// var myLogModule = require('./utility/log.js');
 
 // myLogModule.warning('Warning node not found.');
 // myLogModule.error('Error node encountered an error');
 // myLogModule.info('Node running...');
 
-// // var msg = require('./PRELIMS/utility/message.js');
+// // var msg = require('./utility/message.js');
 // // console.log(msg)
 
-// var person = require('./PRELIMS/utility/data.js');
+// var person = require('./utility/data.js');
 // console.log(person.firstname + ' ' + person.lastname);
 
-var msg = require('./PRELIMS/utility/log.js');
+var msg = require('./utility/log.js');
 
 msg('Hello World');
