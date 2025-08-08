@@ -21,8 +21,13 @@ app.get('/ab*cd', function(req,res){
     res.send('Pattern Match Page')
 })
 
+app.get("/ced", function(req,res){
+    res.send("Cedric Dungca | BSIT - WD301 | A beginner programmer")
+})
+
 var server = app.listen(4000, function(){
     var host = server.address().address
     var port = server.address().port
     console.log("Example app listening at https://%s%s",host,port)
 })
+
